@@ -5,7 +5,8 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding: 15px;
-    background-color: #9eecfa;
+    background-image: linear-gradient(to bottom, rgb(65, 65, 250), rgb(79, 135, 248), rgb(143, 143, 250), rgb(191, 191, 250), rgb(224, 224, 252));
+    background-attachment: fixed;
     text-align: center;
 }
 
@@ -15,9 +16,23 @@ img {
     border-radius: 15px;
     display: block;
     margin: auto;
+    box-shadow: 12px 10px 8px rgba(0, 0, 0, 0.422);
 }
 
-h1 h2 h3 {
+main {
+    background-color: rgba(255, 255, 255, 0.562);
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.454);
+}
+
+h1 {
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.842);
+}
+
+h1, h2, h3 {
     text-align: center;
 }
 
@@ -27,6 +42,10 @@ p {
     text-align: justify;
 }
 
+p.espaço {
+    line-height: 0.7;
+}
+
 ul {
     list-style-position: inside;
     text-align: left;
@@ -34,5 +53,5 @@ ul {
 }
 
 li {
-    margin-bottom: 05px;
+    margin-bottom: 5px;
 }
